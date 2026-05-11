@@ -1,95 +1,54 @@
-# ihcux-racha-ai-prototipo
-# RachaAí — Protótipo de Baixa Fidelidade (IHC & UX)
+# ihcux-racha-ai
+Equipe Avatar
+Integrantes: Arthur Carvalho Oliveira - ADS - 32611916, Sergio Antonio - ADS - 326128163, Paulo André = ADS = 326128523, Miguel Oliveira Silva - ADS - 326128330, Lucas Gonçalves - CC - 32617617
 
----
+💸 RachaAí
 
-## 👤 Nome do aluno/equipe
-- Nome: Lucas Gonçalves 32617617
+Sistema de divisão de despesas coletivas criado para facilitar o controle financeiro entre amigos, casais, colegas de apartamento e grupos de viagem.
 
----
+📱 Telas do Protótipo
+🏠 Dashboard de grupos
+📋 Detalhes do grupo
+➕ Adicionar gasto
+📷 Scanner de nota fiscal
+💳 Extrato de dívidas
+✅ Confirmação de pagamento
+👥 Persona
 
-## 🎯 Persona (para quem o sistema foi projetado?)
+O projeto foi pensado para:
 
-O RachaAí foi projetado principalmente para:
+Estudantes
+Casais
+Amigos em viagens
+Pessoas que dividem contas
+🧠 Heurística de Nielsen
+✔️ Prevenção de Erros
 
-### 🧑‍🎓 Estudantes universitários que moram em repúblicas
+O protótipo prioriza evitar erros na divisão de despesas através de:
 
-Características da persona:
-- Idade entre 18 e 28 anos
-- Compartilham despesas com colegas de casa
-- Possuem renda limitada ou variável
-- Precisam dividir contas com frequência (aluguel, mercado, internet, contas de casa)
-- Têm pouco tempo e querem evitar conflitos financeiros
+Seleção clara de participantes
+Organização dos valores
+Confirmação de pagamentos
+Fluxo para contestar gastos incorretos
+🔄 Fluxo de Tarefa
+Cadastro de uma conta de luz para 3 pessoas
+Entrar no grupo
+Clicar em “Adicionar Gasto”
+Inserir descrição e valor
+Selecionar os 3 participantes
+Escolher divisão igual
+Salvar gasto
 
-Também pode atender:
-- Casais que dividem despesas
-- Amigos em viagens compartilhadas
+O sistema calcula automaticamente quanto cada pessoa deve pagar.
 
----
+🛠️ Ferramentas Utilizadas
+Miro
+Protótipo Low Fidelity
+Design Mobile First
+🎯 Objetivo
 
-## 🧠 Heurística de Nielsen em foco
+Facilitar a organização de despesas compartilhadas de forma simples, rápida e visual.
 
-A heurística mais priorizada neste protótipo foi:
+📌 Status
 
-### 👁️ Visibilidade do status do sistema
-
-### Justificativa:
-O sistema foi projetado para sempre deixar claro:
-
-- Quem pagou
-- Quem deve
-- Quanto falta pagar
-- Status das transações (pendente, pago, em análise)
-
-### Aplicação no protótipo:
-- Dashboard com saldo geral visível
-- Extrato de dívidas com status claro
-- Feedback imediato após ações (ex: pagamento realizado)
-- Indicação visual com cores:
-  - 🔴 deve
-  - 🟢 recebe
-  - 🟡 pendente
-
----
-
-## 🔁 Fluxo de tarefa: Cadastro de conta de luz e divisão entre 3 pessoas
-
-### 📌 Objetivo da tarefa:
-Registrar uma conta de luz e dividir igualmente entre três moradores.
-
----
-
-### 🪜 Passo a passo:
-
-```plaintext
-1. Usuário acessa o Dashboard
-        ↓
-2. Clica em “+ Novo Gasto”
-        ↓
-3. Abre a tela “Adicionar Gasto”
-        ↓
-4. Preenche os dados:
-   - Descrição: Conta de luz
-   - Valor: R$ 150,00
-        ↓
-5. Seleciona o grupo: “Casa”
-        ↓
-6. Escolhe os participantes:
-   - Pessoa 1
-   - Pessoa 2
-   - Pessoa 3
-        ↓
-7. Seleciona tipo de divisão:
-   - Igual (50/50/50)
-        ↓
-8. Clica em “Confirmar”
-        ↓
-9. Sistema registra o gasto
-        ↓
-10. Atualiza automaticamente:
-   - saldo de cada pessoa
-   - total do grupo
-        ↓
-11. Usuário é redirecionado para o Dashboard
-        ↓
-12. Visualiza atualização do saldo geral
+🚧 Protótipo em desenvolvimento para estudos de UX/UI.
